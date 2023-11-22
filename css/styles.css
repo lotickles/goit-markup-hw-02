@@ -1,0 +1,10 @@
+.iris-color {
+  color: #4d5ae5;
+}
+
+.hero-header:root {
+  --text-color: --NAVY-BLUE;
+}
+.header-studio {
+  color: var(--text-color);
+}
