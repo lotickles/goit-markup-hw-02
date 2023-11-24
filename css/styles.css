@@ -17,9 +17,9 @@
   --white: #ffffff;
 }
 body {
-  color: var(--slate, #434455);
+  color: var(--slate);
   font-family: "Roboto", sans-serif;
-  background-color: var(--white, #ffffff);
+  background-color: var(--white);
 }
 .logo {
   color: var(--IRIS, #4d5ae5);
@@ -56,4 +56,8 @@ span {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.studio-hover:hover {
+  color: #404bbf;
 }
