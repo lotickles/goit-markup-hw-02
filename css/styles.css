@@ -44,6 +44,9 @@ span {
   list-style: none;
   text-decoration: none;
 }
+.link {
+  text-decoration: none;
+}
 
 .nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
