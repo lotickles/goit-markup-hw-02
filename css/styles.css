@@ -15,10 +15,10 @@
   --iris: #4d5ae5;
   --navy-blue: #2e2f42;
   --slate: #434455;
-  --white: #fff;
+  --white: #fffff;
 }
 body {
-  color: var(--slate);
+  color: var(--slate, #434455);
   font-family: "Roboto", sans-serif;
-  background-color: var(--white);
+  background-color: var(--white, #ffffff);
 }
