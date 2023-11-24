@@ -15,7 +15,7 @@
   --iris: #4d5ae5;
   --navy-blue: #2e2f42;
   --slate: #434455;
-  --white: #fffff;
+  --white: #ffffff;
 }
 body {
   color: var(--slate, #434455);
