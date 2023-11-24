@@ -1,7 +1,6 @@
 /* latin */
 @font-face {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: local("Roboto Bold") url(https://fonts.googleapis.com);
@@ -21,4 +20,35 @@ body {
   color: var(--slate, #434455);
   font-family: "Roboto", sans-serif;
   background-color: var(--white, #ffffff);
+}
+.link {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+span {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+nav {
+  list-style: none;
+}
+.nav-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
