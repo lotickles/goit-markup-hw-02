@@ -121,7 +121,7 @@ body {
   background-color: var(--ocean);
 }
 /*SECTION TWO*/
-.h3 {
+.feature-title {
   color: var(--navyblue);
   /* Header 3 */
   font-family: Roboto;
