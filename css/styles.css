@@ -52,9 +52,7 @@ body {
 .link:hover,
 .link:focus,
 .address .link:hover,
-.address .link:focus,
-.button:hover,
-.button:focus {
+.address .link:focus {
   color: var(--ocean);
 }
 .logo > .studio {
@@ -117,4 +115,8 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
 }
