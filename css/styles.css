@@ -90,3 +90,9 @@ body {
 .address .list.link {
   color: var(--slate);
 }
+.list.link :hover {
+  color: var(--ocean);
+}
+.list.link :focus {
+  color: var(--ocean);
+}
