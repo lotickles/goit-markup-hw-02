@@ -94,3 +94,33 @@ body {
 .address .link:focus {
   color: var(--ocean);
 }
+/*sections finally!*/
+.section-one {
+  background-color: var(--navyblue);
+}
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.button {
+  background-color: var(--iris);
+
+  /* Button Text */
+  color: var(--white);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--ocean);
+}
