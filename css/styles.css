@@ -34,6 +34,11 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
 }
+/*default link style*/
+.link {
+  text-decoration: none;
+  color: #2e2f42;
+}
 .logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -58,11 +63,6 @@ body {
 .list {
   list-style: none;
   text-decoration: none;
-}
-/*default link style*/
-.link {
-  text-decoration: none;
-  color: #2e2f42;
 }
 
 /*first nav link*/
