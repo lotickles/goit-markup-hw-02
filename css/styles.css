@@ -87,10 +87,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.address .list .link {
+.address .link {
   color: var(--slate);
 }
-.list .link:hover,
-.list .link:focus {
+.address .link:hover,
+.address .link:focus {
   color: var(--ocean);
 }
