@@ -136,7 +136,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*section three*/
+/*section three and for for headings*/
 .section-header {
   color: var(--navyblue);
   text-align: center;
@@ -151,8 +151,8 @@ body {
 .section-four {
   background-color: var(--cloud);
 }
-
-.section-four .feature-title,
+/*section title and p bg color*/
+.section-four .list-member,
 .feature-text {
   background-color: var(--white);
 }
