@@ -189,3 +189,27 @@ body {
   letter-spacing: 0.02em;
 }
 /*============PORTFOLIO PAGE============*/
+.portfolio-section {
+  font-family: Roboto, sans-serif;
+}
+.portfolio-section.list {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.button-all {
+  color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+}
+.button-all {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+.button-all:hover {
+  color: var(--white);
+  background-color: var(--ocean);
+}
