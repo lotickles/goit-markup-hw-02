@@ -87,6 +87,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.address .link {
+.address .list.link {
   color: var(--slate);
 }
