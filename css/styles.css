@@ -148,3 +148,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.section-four {
+  background-color: var(--cloud);
+}
+
+.section-four .feature-title,
+.feature-text {
+  background-color: var(--white);
+}
