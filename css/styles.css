@@ -49,7 +49,12 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-
+.link:hover {
+  color: var(--ocean);
+}
+.link:focus {
+  color: var(--ocean);
+}
 .logo > .studio {
   color: var(--navyblue);
   font-family: Raleway;
@@ -75,10 +80,4 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-.link:hover {
-  color: var(--ocean);
-}
-.link:focus {
-  color: var(--ocean);
 }
