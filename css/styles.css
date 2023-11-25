@@ -62,6 +62,7 @@ body {
 /*default link style*/
 .link {
   text-decoration: none;
+  color: #2e2f42;
 }
 
 /*first nav link*/
