@@ -121,16 +121,30 @@ body {
   background-color: var(--ocean);
 }
 /*SECTION TWO*/
+/* Header 3 */
 .feature-title {
   color: var(--navyblue);
-  /* Header 3 */
+
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
+/*paragraph*/
 .feature-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/*section three*/
+.section-header {
+  color: var(--navyblue);
+  text-align: center;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
