@@ -190,25 +190,13 @@ body {
 }
 /*============PORTFOLIO PAGE============*/
 
-.portfolio-section.list {
-  cursor: pointer;
-}
 /*buttons menu*/
 .list .button-style {
   color: var(--iris);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   background-color: var(--cloud);
 }
-.list > .button-style .all {
+.portfolio-section .button-style:hover,
+.portfolio-section .button-style:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
-/*
-.list > .button-style:hover,
-.list > .button-style:focus {
-  color: var(--white);
-}
-*/
