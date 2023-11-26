@@ -191,7 +191,7 @@ body {
 /*============PORTFOLIO PAGE============*/
 
 /*buttons menu*/
-.list .button-style {
+.button-style {
   color: var(--iris);
   background-color: var(--cloud);
 }
@@ -201,5 +201,17 @@ body {
   background-color: var(--ocean);
 }
 
-/*==========IMAGES=========/
-.list. 
+/*==========IMAGES=========*/
+.list.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.design {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
