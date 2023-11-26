@@ -189,12 +189,8 @@ body {
   letter-spacing: 0.02em;
 }
 /*============PORTFOLIO PAGE============*/
-.portfolio-section {
-  font-family: Roboto, sans-serif;
-}
+
 .portfolio-section.list {
-  text-decoration: none;
-  list-style: none;
   cursor: pointer;
 }
 /*buttons menu*/
@@ -204,13 +200,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-.button-style {
   background-color: var(--cloud);
 }
-.button-style .all:hover,
-.button-style .all:focus,
-.button-style .all {
+.list > .button-style .all {
   color: var(--white);
   background-color: var(--ocean);
 }
+/*
+.list > .button-style:hover,
+.list > .button-style:focus {
+  color: var(--white);
+}
+*/
